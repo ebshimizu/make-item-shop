@@ -1,0 +1,3160 @@
+{
+  "Armor": {
+    "Common": [
+      {
+        "name": "Armor of Gleaming",
+        "type": "Armor",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "medium or heavy",
+        "source": "xge 136"
+      },
+      {
+        "name": "Cast-Off Armor",
+        "type": "Armor",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "light, medium, or heavy",
+        "source": "xge 136"
+      },
+      {
+        "name": "Shield of Expression",
+        "type": "Armor",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "shield",
+        "source": "xge 139"
+      },
+      {
+        "name": "Smoldering Armor",
+        "type": "Armor",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Adamantine Armor",
+        "type": "Armor",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "medium or heavy, but not hide",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Mariner's Armor",
+        "type": "Armor",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 181"
+      },
+      {
+        "name": "Mithral Armor",
+        "type": "Armor",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "medium or heavy, but not hide",
+        "source": "dmg 182"
+      },
+      {
+        "name": "Sentinel Shield",
+        "type": "Armor",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "shield",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Shield, +1",
+        "type": "Armor",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "shield",
+        "source": "dmg 200"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Armor of Resistance",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Armor of Vulnerability",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "plate",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Armor, +1",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Arrow-catching Shield",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "shield",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Elven Chain",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "chain shirt",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Glamoured Studded Leather",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "studded leather",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Shield of Missile Attraction",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "shield",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Shield, +2",
+        "type": "Armor",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "shield",
+        "source": "dmg 200"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Animated Shield",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "shield",
+        "source": "dmg 151"
+      },
+      {
+        "name": "Armor, +2",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Demon Armor",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "plate",
+        "source": "dmg 165"
+      },
+      {
+        "name": "Dragon Scale Mail",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "scale mail",
+        "source": "dmg 165"
+      },
+      {
+        "name": "Dwarven Plate",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "plate",
+        "source": "dmg 167"
+      },
+      {
+        "name": "Shield, +3",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "shield",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spellguard Shield",
+        "type": "Armor",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "shield",
+        "source": "dmg 201"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Armor of Invulnerability",
+        "type": "Armor",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "plate",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Armor, +3",
+        "type": "Armor",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Efreeti Chain",
+        "type": "Armor",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "chain mail",
+        "source": "dmg 167"
+      },
+      {
+        "name": "Plate Armor of Etherealness",
+        "type": "Armor",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "plate",
+        "source": "dmg 185"
+      }
+    ]
+  },
+  "Potion": {
+    "Common": [
+      {
+        "name": "Potion of Climbing",
+        "type": "Potion",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Healing",
+        "type": "Potion",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Oil of Slipperiness",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Philter of Love",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Potion of Animal Friendship",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Fire Breath",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Greater Healing",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Growth",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Hill Giant Strength",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Poison",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Resistance",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Elixir of Health",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Oil of Etherealness",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 183"
+      },
+      {
+        "name": "Potion of Clairvoyance",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Diminution",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Fire Giant Strength",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Frost Giant Strength",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Gaseous Form",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Heroism",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Invulnerability",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Mind Reading",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Stone Giant Strength",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Superior Healing",
+        "type": "Potion",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Oil of Sharpness",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Potion of Cloud Giant Strength",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Flying",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Invisibility",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Longevity",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Speed",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      },
+      {
+        "name": "Potion of Vitality",
+        "type": "Potion",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Potion of Storm Giant Strength",
+        "type": "Potion",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 187"
+      }
+    ]
+  },
+  "Ring": {
+    "Uncommon": [
+      {
+        "name": "Ring of Jumping",
+        "type": "Ring",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Mind Shielding",
+        "type": "Ring",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Swimming",
+        "type": "Ring",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Ring of Warmth",
+        "type": "Ring",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Ring of Water Walking",
+        "type": "Ring",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 193"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Ring of Animal Influence",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 189"
+      },
+      {
+        "name": "Ring of Evasion",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Feather Falling",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Free Action",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Protection",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Resistance",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 192"
+      },
+      {
+        "name": "Ring of Spell Storing",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 192"
+      },
+      {
+        "name": "Ring of X-ray Vision",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Ring of the Ram",
+        "type": "Ring",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Ring of Regeneration",
+        "type": "Ring",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Shooting Stars",
+        "type": "Ring",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 192"
+      },
+      {
+        "name": "Ring of Telekinesis",
+        "type": "Ring",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Ring of Air Elemental Command",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 190"
+      },
+      {
+        "name": "Ring of Djinni Summoning",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 190"
+      },
+      {
+        "name": "Ring of Earth Elemental Command",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 190"
+      },
+      {
+        "name": "Ring of Fire Elemental Command",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 190"
+      },
+      {
+        "name": "Ring of Invisibility",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 191"
+      },
+      {
+        "name": "Ring of Spell Turning",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Ring of Three Wishes",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Ring of Water Elemental Command",
+        "type": "Ring",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 190"
+      }
+    ]
+  },
+  "Rod": {
+    "Uncommon": [
+      {
+        "name": "Immovable Rod",
+        "type": "Rod",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Rod of the Pact Keeper, +1",
+        "type": "Rod",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "warlock",
+        "source": "dmg 197"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Rod of Rulership",
+        "type": "Rod",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 197"
+      },
+      {
+        "name": "Rod of the Pact Keeper, +2",
+        "type": "Rod",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "warlock",
+        "source": "dmg 197"
+      },
+      {
+        "name": "Tentacle Rod",
+        "type": "Rod",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 208"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Rod of Absorption",
+        "type": "Rod",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 195"
+      },
+      {
+        "name": "Rod of Alertness",
+        "type": "Rod",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 196"
+      },
+      {
+        "name": "Rod of Security",
+        "type": "Rod",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 197"
+      },
+      {
+        "name": "Rod of the Pact Keeper, +3",
+        "type": "Rod",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "warlock",
+        "source": "dmg 197"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Rod of Lordly Might",
+        "type": "Rod",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 196"
+      },
+      {
+        "name": "Rod of Resurrection",
+        "type": "Rod",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "cleric, druid, or paladin",
+        "source": "dmg 197"
+      }
+    ]
+  },
+  "Scroll": {
+    "Common": [
+      {
+        "name": "Spell Scroll, 1st Level",
+        "type": "Scroll",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spell Scroll, Cantrip",
+        "type": "Scroll",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Spell Scroll, 2nd Level",
+        "type": "Scroll",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spell Scroll, 3rd Level",
+        "type": "Scroll",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Scroll of Protection",
+        "type": "Scroll",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Spell Scroll, 4th Level",
+        "type": "Scroll",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spell Scroll, 5th Level",
+        "type": "Scroll",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Spell Scroll, 6th Level",
+        "type": "Scroll",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spell Scroll, 7th Level",
+        "type": "Scroll",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Spell Scroll, 8th Level",
+        "type": "Scroll",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Spell Scroll, 9th Level",
+        "type": "Scroll",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      }
+    ]
+  },
+  "Staff": {
+    "Common": [
+      {
+        "name": "Staff of Adornment",
+        "type": "Staff",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      },
+      {
+        "name": "Staff of Birdcalls",
+        "type": "Staff",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      },
+      {
+        "name": "Staff of Flowers",
+        "type": "Staff",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Staff of the Adder",
+        "type": "Staff",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "cleric, druid, or warlock",
+        "source": "dmg 203"
+      },
+      {
+        "name": "Staff of the Python",
+        "type": "Staff",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "cleric, druid, or warlock",
+        "source": "dmg 204"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Staff of Charming",
+        "type": "Staff",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "bard, cleric, druid, sorcerer, warlock, or wizard",
+        "source": "dmg 201"
+      },
+      {
+        "name": "Staff of Healing",
+        "type": "Staff",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "bard, cleric, or druid",
+        "source": "dmg 202"
+      },
+      {
+        "name": "Staff of Swarming Insects",
+        "type": "Staff",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "bard, cleric, druid, sorcerer, warlock, or wizard",
+        "source": "dmg 203"
+      },
+      {
+        "name": "Staff of Withering",
+        "type": "Staff",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "cleric, druid, or warlock",
+        "source": "dmg 205"
+      },
+      {
+        "name": "Staff of the Woodlands",
+        "type": "Staff",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "druid",
+        "source": "dmg 204"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Staff of Fire",
+        "type": "Staff",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "druid, sorcerer, warlock, or wizard",
+        "source": "dmg 201"
+      },
+      {
+        "name": "Staff of Frost",
+        "type": "Staff",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "druid, sorcerer, warlock, or wizard",
+        "source": "dmg 202"
+      },
+      {
+        "name": "Staff of Power",
+        "type": "Staff",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "sorcerer, warlock, or wizard",
+        "source": "dmg 202"
+      },
+      {
+        "name": "Staff of Striking",
+        "type": "Staff",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 203"
+      },
+      {
+        "name": "Staff of Thunder and Lightning",
+        "type": "Staff",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 204"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Staff of the Magi",
+        "type": "Staff",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "sorcerer, warlock, or wizard",
+        "source": "dmg 203"
+      }
+    ]
+  },
+  "Wand": {
+    "Common": [
+      {
+        "name": "Wand of Conducting",
+        "type": "Wand",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 140"
+      },
+      {
+        "name": "Wand of Pyrotechnics",
+        "type": "Wand",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 140"
+      },
+      {
+        "name": "Wand of Scowls",
+        "type": "Wand",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 140"
+      },
+      {
+        "name": "Wand of Smiles",
+        "type": "Wand",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 140"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Wand of Magic Detection",
+        "type": "Wand",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of Magic Missiles",
+        "type": "Wand",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of Secrets",
+        "type": "Wand",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of Web",
+        "type": "Wand",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 212"
+      },
+      {
+        "name": "Wand of the War Mage, +1",
+        "type": "Wand",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 212"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Wand of Binding",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 209"
+      },
+      {
+        "name": "Wand of Enemy Detection",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 210"
+      },
+      {
+        "name": "Wand of Fear",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 210"
+      },
+      {
+        "name": "Wand of Fireballs",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 210"
+      },
+      {
+        "name": "Wand of Lightning Bolts",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of Paralysis",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of Wonder",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 212"
+      },
+      {
+        "name": "Wand of the War Mage, +2",
+        "type": "Wand",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 212"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Wand of Polymorph",
+        "type": "Wand",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 211"
+      },
+      {
+        "name": "Wand of the War Mage, +3",
+        "type": "Wand",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 212"
+      }
+    ]
+  },
+  "Weapon": {
+    "Common": [
+      {
+        "name": "Moon-Touched Sword",
+        "type": "Weapon",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "any sword",
+        "source": "xge 138"
+      },
+      {
+        "name": "Unbreakable Arrow",
+        "type": "Weapon",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "arrow",
+        "source": "xge 139"
+      },
+      {
+        "name": "Walloping Ammunition",
+        "type": "Weapon",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "any ammunition",
+        "source": "xge 139"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Ammunition, +1",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "any ammunition",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Javelin of Lightning",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "javelin",
+        "source": "dmg 178"
+      },
+      {
+        "name": "Sword of Vengeance",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 206"
+      },
+      {
+        "name": "Trident of Fish Command",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "trident",
+        "source": "dmg 209"
+      },
+      {
+        "name": "Weapon of Warning",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 213"
+      },
+      {
+        "name": "Weapon, +1",
+        "type": "Weapon",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 213"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Ammunition, +2",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "any ammunition",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Berserker Axe",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "any axe",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Dagger of Venom",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "dagger",
+        "source": "dmg 161"
+      },
+      {
+        "name": "Dragon Slayer",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "any sword",
+        "source": "dmg 166"
+      },
+      {
+        "name": "Flame Tongue",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Giant Slayer",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "any axe or sword",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Mace of Disruption",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "mace",
+        "source": "dmg 179"
+      },
+      {
+        "name": "Mace of Smiting",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "mace",
+        "source": "dmg 179"
+      },
+      {
+        "name": "Mace of Terror",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "mace",
+        "source": "dmg 180"
+      },
+      {
+        "name": "Sun Blade",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "longsword",
+        "source": "dmg 205"
+      },
+      {
+        "name": "Sword of Life Stealing",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 206"
+      },
+      {
+        "name": "Sword of Wounding",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 207"
+      },
+      {
+        "name": "Vicious Weapon",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 209"
+      },
+      {
+        "name": "Weapon, +2",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 213"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Ammunition, +3",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "any ammunition",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Arrow of Slaying",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "arrow",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Dancing Sword",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 161"
+      },
+      {
+        "name": "Dwarven Thrower",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "warhammer, dwarf",
+        "source": "dmg 167"
+      },
+      {
+        "name": "Frost Brand",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 171"
+      },
+      {
+        "name": "Nine Lives Stealer",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 183"
+      },
+      {
+        "name": "Oathbow",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "longbow",
+        "source": "dmg 183"
+      },
+      {
+        "name": "Scimitar of Speed",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "scimitar",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Sword of Sharpness",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "any sword that deals slashing damage",
+        "source": "dmg 206"
+      },
+      {
+        "name": "Weapon, +3",
+        "type": "Weapon",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 213"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Defender",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 164"
+      },
+      {
+        "name": "Hammer of Thunderbolts",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "maul",
+        "source": "dmg 173"
+      },
+      {
+        "name": "Holy Avenger",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "any sword, paladin",
+        "source": "dmg 174"
+      },
+      {
+        "name": "Luck Blade",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "any sword",
+        "source": "dmg 179"
+      },
+      {
+        "name": "Sword of Answering",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "longsword, by alignment",
+        "source": "dmg 206"
+      },
+      {
+        "name": "Vorpal Sword",
+        "type": "Weapon",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "any sword that deals slashing damage",
+        "source": "dmg 209"
+      }
+    ]
+  },
+  "Wondrous Item": {
+    "Common": [
+      {
+        "name": "Bead of Nourishment",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Bead of Refreshment",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Boots of False Tracks",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Candle of the Deep",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Charlatan's Die",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Cloak of Billowing",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Cloak of Many Fashions",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 136"
+      },
+      {
+        "name": "Clockwork Amulet",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Clothes of Mending",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Dark Shard Amulet",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "warlock",
+        "source": "xge 137"
+      },
+      {
+        "name": "Dread Helm",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Ear Horn of Hearing",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Enduring Spellbook",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Ersatz Eye",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Hat of Vermin",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Hat of Wizardry",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "wizard",
+        "source": "xge 137"
+      },
+      {
+        "name": "Heward's Handy Spice Pouch",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Horn of Silent Alarm",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Instrument of Illusions",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "",
+        "source": "xge 137"
+      },
+      {
+        "name": "Instrument of Scribing",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Lock of Trickery",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Mystery Key",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Orb of Direction",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Orb of Time",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Perfume of Bewitching",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Pipe of Smoke Monsters",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Pole of Angling",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Pole of Collapsing",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Pot of Awakening",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Rope of Mending",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 138"
+      },
+      {
+        "name": "Ruby of the War Mage",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "xge 138"
+      },
+      {
+        "name": "Talking Doll",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": true,
+        "notes": "",
+        "source": "xge 139"
+      },
+      {
+        "name": "Tankard of Sobriety",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      },
+      {
+        "name": "Veteran's Cane",
+        "type": "Wondrous Item",
+        "rarity": "Common",
+        "attune": false,
+        "notes": "",
+        "source": "xge 139"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Alchemy Jug",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Amulet of Proof Against Detection and Location",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Bag of Holding",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 153"
+      },
+      {
+        "name": "Bag of Tricks",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 154"
+      },
+      {
+        "name": "Boots of Elvenkind",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Boots of Striding and Springing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Boots of the Winterlands",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Bracers of Archery",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Brooch of Shielding",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Broom of Flying",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Cap of Water Breathing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 157"
+      },
+      {
+        "name": "Circlet of Blasting",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Cloak of Elvenkind",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Cloak of Protection",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Cloak of the Manta Ray",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Decanter of Endless Water",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 161"
+      },
+      {
+        "name": "Deck of Illusions",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 161"
+      },
+      {
+        "name": "Driftglobe",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 166"
+      },
+      {
+        "name": "Dust of Disappearance",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 166"
+      },
+      {
+        "name": "Dust of Dryness",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 166"
+      },
+      {
+        "name": "Dust of Sneezing and Choking",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 166"
+      },
+      {
+        "name": "Elemental Gem",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 167"
+      },
+      {
+        "name": "Eversmoking Bottle",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Eyes of Charming",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Eyes of Minute Seeing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Eyes of the Eagle",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 168"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Silver Raven",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Gauntlets of Ogre Power",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 171"
+      },
+      {
+        "name": "Gem of Brightness",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 171"
+      },
+      {
+        "name": "Gloves of Missile Snaring",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Gloves of Swimming and Climbing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Gloves of Thievery",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Goggles of Night",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Hat of Disguise",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 173"
+      },
+      {
+        "name": "Headband of Intellect",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 173"
+      },
+      {
+        "name": "Helm of Comprehending Languages",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 173"
+      },
+      {
+        "name": "Helm of Telepathy",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 174"
+      },
+      {
+        "name": "Instrument of the Bards, Doss Lute",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Instrument of the Bards, Fochlucan Bandore",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Keoghtom's Ointment",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 179"
+      },
+      {
+        "name": "Lantern of Revealing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 179"
+      },
+      {
+        "name": "Medallion of Thoughts",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 181"
+      },
+      {
+        "name": "Necklace of Adaptation",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 182"
+      },
+      {
+        "name": "Pearl of Power",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "spellcaster",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Periapt of Health",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Periapt of Wound Closure",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Pipes of Haunting",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 185"
+      },
+      {
+        "name": "Pipes of the Sewers",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 185"
+      },
+      {
+        "name": "Quiver of Ehlonna",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 189"
+      },
+      {
+        "name": "Robe of Useful Items",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 195"
+      },
+      {
+        "name": "Rope of Climbing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 197"
+      },
+      {
+        "name": "Saddle of the Cavalier",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Sending Stones",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Slippers of Spider Climbing",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Stone of Good Luck",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 205"
+      },
+      {
+        "name": "Wind Fan",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 213"
+      },
+      {
+        "name": "Winged Boots",
+        "type": "Wondrous Item",
+        "rarity": "Uncommon",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 214"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Amulet of Health",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Bag of Beans",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 152"
+      },
+      {
+        "name": "Bead of Force",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 154"
+      },
+      {
+        "name": "Belt of Dwarvenkind",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Belt of Hill Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Boots of Levitation",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Boots of Speed",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Bowl of Commanding Water Elementals",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Bracers of Defense",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Brazier of Commanding Fire Elementals",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 156"
+      },
+      {
+        "name": "Cape of the Mountebank",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 157"
+      },
+      {
+        "name": "Censer of Controlling Air Elementals",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Chime of Opening",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Cloak of Displacement",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Cloak of the Bat",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Cube of Force",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Daern's Instant Fortress",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 160"
+      },
+      {
+        "name": "Dimensional Shackles",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 165"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Bronze Griffon",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 169"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Ebony Fly",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 169"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Golden Lions",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 169"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Ivory Goats",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 169"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Marble Elephant",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Onyx Dog",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Serpentine Owl",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Folding Boat",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Gem of Seeing",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 172"
+      },
+      {
+        "name": "Helm of Teleportation",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 174"
+      },
+      {
+        "name": "Heward's Handy Haversack",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 174"
+      },
+      {
+        "name": "Horn of Blasting",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 174"
+      },
+      {
+        "name": "Horn of Valhalla, Brass",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Horn of Valhalla, Silver",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Horseshoes of Speed",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Instrument of the Bards, Canaith Mandolin",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Instrument of the Bards, Cli Lyre",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Awareness",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Protection",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Reserve",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Sustenance",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Iron Bands of Bilarro",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 177"
+      },
+      {
+        "name": "Mantle of Spell Resistance",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 180"
+      },
+      {
+        "name": "Necklace of Fireballs",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 182"
+      },
+      {
+        "name": "Necklace of Prayer Beads",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "cleric, druid, or paladin",
+        "source": "dmg 182"
+      },
+      {
+        "name": "Periapt of Proof Against Poison",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 184"
+      },
+      {
+        "name": "Portable Hole",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 185"
+      },
+      {
+        "name": "Quaal's Feather Token",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 188"
+      },
+      {
+        "name": "Robe of Eyes",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 193"
+      },
+      {
+        "name": "Rope of Entanglement",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 197"
+      },
+      {
+        "name": "Stone of Controlling Earth Elementals",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 205"
+      },
+      {
+        "name": "Wings of Flying",
+        "type": "Wondrous Item",
+        "rarity": "Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 214"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Amulet of the Planes",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 150"
+      },
+      {
+        "name": "Bag of Devouring",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 153"
+      },
+      {
+        "name": "Belt of Fire Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Belt of Frost Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Belt of Stone Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Candle of Invocation",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 157"
+      },
+      {
+        "name": "Carpet of Flying",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 157"
+      },
+      {
+        "name": "Cloak of Arachnida",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Crystal Ball",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Efreeti Bottle",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 167"
+      },
+      {
+        "name": "Figurine of Wondrous Power, Obsidian Steed",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 170"
+      },
+      {
+        "name": "Helm of Brilliance",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 173"
+      },
+      {
+        "name": "Horn of Valhalla, Bronze",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Horseshoes of a Zephyr",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Instrument of the Bards, Anstruth Harp",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Absorption",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Agility",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Fortitude",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Insight",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Intellect",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Leadership",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Strength",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Manual of Bodily Health",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 180"
+      },
+      {
+        "name": "Manual of Gainful Exercise",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 180"
+      },
+      {
+        "name": "Manual of Golems",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 180"
+      },
+      {
+        "name": "Manual of Quickness of Action",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 181"
+      },
+      {
+        "name": "Mirror of Life Trapping",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 181"
+      },
+      {
+        "name": "Nolzur's Marvelous Pigments",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 183"
+      },
+      {
+        "name": "Robe of Scintillating Colors",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 194"
+      },
+      {
+        "name": "Robe of Stars",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 194"
+      },
+      {
+        "name": "Tome of Clear Thought",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 208"
+      },
+      {
+        "name": "Tome of Leadership and Influence",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 208"
+      },
+      {
+        "name": "Tome of Understanding",
+        "type": "Wondrous Item",
+        "rarity": "Very Rare",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 209"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Apparatus of Kwalish",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 151"
+      },
+      {
+        "name": "Belt of Cloud Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Belt of Storm Giant Strength",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 155"
+      },
+      {
+        "name": "Cloak of Invisibility",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 158"
+      },
+      {
+        "name": "Crystal Ball of Mind Reading",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Crystal Ball of Telepathy",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Crystal Ball of True Seeing",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 159"
+      },
+      {
+        "name": "Cubic Gate",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 160"
+      },
+      {
+        "name": "Deck of Many Things",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 162"
+      },
+      {
+        "name": "Horn of Valhalla, Iron",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 175"
+      },
+      {
+        "name": "Instrument of the Bards, Ollamh Harp",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "bard",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Greater Absorption",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Mastery",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Ioun Stone, Regeneration",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 176"
+      },
+      {
+        "name": "Iron Flask",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 178"
+      },
+      {
+        "name": "Robe of the Archmagi",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "sorcerer, warlock, or wizard",
+        "source": "dmg 194"
+      },
+      {
+        "name": "Scarab of Protection",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 199"
+      },
+      {
+        "name": "Sovereign Glue",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 200"
+      },
+      {
+        "name": "Sphere of Annihilation",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 201"
+      },
+      {
+        "name": "Talisman of Pure Good",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "good alignment",
+        "source": "dmg 207"
+      },
+      {
+        "name": "Talisman of Ultimate Evil",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "evil alignment",
+        "source": "dmg 207"
+      },
+      {
+        "name": "Talisman of the Sphere",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "",
+        "source": "dmg 207"
+      },
+      {
+        "name": "Tome of the Stilled Tongue",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": true,
+        "notes": "wizard",
+        "source": "dmg 208"
+      },
+      {
+        "name": "Universal Solvent",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 209"
+      },
+      {
+        "name": "Well of Many Worlds",
+        "type": "Wondrous Item",
+        "rarity": "Legendary",
+        "attune": false,
+        "notes": "",
+        "source": "dmg 213"
+      }
+    ]
+  }
+}
