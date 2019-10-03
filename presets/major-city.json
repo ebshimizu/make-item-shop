@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 50,
   "typeProportional": true,
   "allowDuplicates": {
     "Common": true,
@@ -14,28 +14,30 @@
       "var": 0.1
     },
     "Uncommon": {
-      "prop": 0.45,
+      "prop": 0.46,
       "var": 0.1
     },
     "Rare": {
-      "prop": 0.25,
+      "prop": 0.3,
       "var": 0.1
     },
     "Very Rare": {
-      "prop": 0.08,
+      "prop": 0.1,
       "var": 0.02
     },
     "Legendary": {
-      "prop": 0.02,
+      "prop": 0.03,
       "var": 0.01
     }
   },
   "ensureRarity": {
-    "Very Rare": 1,
-    "Rare": 2
+    "Very Rare": 2,
+    "Rare": 3,
+    "Legendary": 1
   },
   "ensureType": {
     "Armor": 2,
-    "Weapon": 2
+    "Weapon": 2,
+    "Ring": 3
   }
 }

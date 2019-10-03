@@ -404,7 +404,7 @@ function makeShop(exportTo = null, opts = {}) {
   // pull the rest of the items
   sampleRemainingItems(params, rarityDist, shop);
 
-  printShop(shop);
+  // printShop(shop);
 
   if (exportTo) {
     exportShop(shop, exportTo);
@@ -423,5 +423,4 @@ function makeShopFromPreset(preset, exportTo = null) {
 module.exports.makeShop = makeShop;
 module.exports.makeShopFromPreset = makeShopFromPreset;
 
-makeShopFromPreset('./presets/major-city.json', './out/test.csv');
-//makeShopFromPreset(process.argv[2], process.argv[3]);
+makeShopFromPreset(process.argv[2], process.argv[3]);
