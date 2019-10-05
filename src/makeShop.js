@@ -508,8 +508,3 @@ async function makeShopFromPreset(preset, exportTo = null) {
 module.exports.make = makeShop;
 module.exports.makeFromPreset = makeShopFromPreset;
 module.exports.SOURCES = SOURCES;
-
-// script todos
-// - pricing variance (need to price out all current items)
-// - modular item loads
-// - banned items
