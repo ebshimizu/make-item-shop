@@ -1,10 +1,12 @@
 {
-  "name": "item-shop-5e",
+  "version": "1.0.0-alpha",
+  "name": "make-item-shop",
   "author": {
     "name": "Falindrith",
     "email": "falindrith@gmail.com"
   },
   "license": "MIT",
+  "main": "index.js",
   "dependencies": {
     "deepmerge": "^4.0.0",
     "fs-extra": "^8.1.0",

@@ -20,7 +20,7 @@ async function itemsFromCSV(file, saveTo, items = {}, itemsByType = {}) {
   for await (const line of rl) {
     const vals = line.split('\t');
     const item = {
-      name: vals[0],
+      name: vals[0].replace(/"/g, ''),
       type: vals[1],
       rarity: vals[2],
       attune: vals[3] === 'yes' ? true : false,

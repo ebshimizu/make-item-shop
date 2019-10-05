@@ -13,7 +13,11 @@ const SOURCES = {
   XGE: 'xge'
 };
 const MAX_LOOPS = 25;
-const DATA_PATH = './db';
+const DATA_PATH = path.join(__dirname, 'db');
+
+function clamp(val, min, max) {
+  return Math.min(max, Math.max(min, val));
+}
 
 /**
  * Returns the weighted distributions of item rarities by type
@@ -135,7 +139,11 @@ function getRarityDistribution(params) {
   let total = 0;
   for (const rarity in params.dist) {
     const rDist = params.dist[rarity];
-    rarityDist[rarity] = rDist.weight + random.normal(0, rDist.var)();
+    rarityDist[rarity] = clamp(
+      rDist.weight + random.normal(0, rDist.var)(),
+      0,
+      1
+    );
     total += rarityDist[rarity];
   }
 
@@ -494,22 +502,11 @@ async function makeShopFromPreset(preset, exportTo = null) {
   }
 }
 
-module.exports.makeShop = makeShop;
-module.exports.makeShopFromPreset = makeShopFromPreset;
+module.exports.make = makeShop;
+module.exports.makeFromPreset = makeShopFromPreset;
 module.exports.SOURCES = SOURCES;
 
 // script todos
 // - pricing variance (need to price out all current items)
 // - modular item loads
 // - banned items
-
-(async () => {
-  try {
-    await makeShopFromPreset(
-      '../presets/major-city.json',
-      '../out/sovaliss2.txt'
-    );
-  } catch (e) {
-    console.log(e);
-  }
-})();
