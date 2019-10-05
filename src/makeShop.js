@@ -1,19 +1,25 @@
 // params
 // - avg items to make of each type
 const random = require('random');
-const items = require('./data/itemsByType');
 const fs = require('fs-extra');
 const merge = require('deepmerge');
 const slugify = require('slugify');
+const getItems = require('./getItems');
+const path = require('path');
 
 const RARITIES = ['Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'];
+const SOURCES = {
+  DMG: 'dmg',
+  XGE: 'xge'
+};
 const MAX_LOOPS = 25;
+const DATA_PATH = './db';
 
 /**
  * Returns the weighted distributions of item rarities by type
  * @param {Object} data Items object
  */
-function preprocessItems(data) {
+function preprocessItems(items) {
   const dist = {};
   const distTotals = {};
   for (const rarity of RARITIES) {
@@ -40,9 +46,7 @@ function preprocessItems(data) {
   return dist;
 }
 
-const typeDist = preprocessItems(items);
-
-function getCurrentTypeDist(type) {
+function getCurrentTypeDist(type, items) {
   const typeData = items[type];
   const dist = {};
   let total = 0;
@@ -131,7 +135,7 @@ function getRarityDistribution(params) {
   let total = 0;
   for (const rarity in params.dist) {
     const rDist = params.dist[rarity];
-    rarityDist[rarity] = rDist.prop + random.normal(0, rDist.var)();
+    rarityDist[rarity] = rDist.weight + random.normal(0, rDist.var)();
     total += rarityDist[rarity];
   }
 
@@ -164,7 +168,7 @@ function getItem(type, rarity, itemPool, withRemoval) {
   return item;
 }
 
-function sampleRequiredItems(params, shop) {
+function sampleRequiredItems(params, shop, items) {
   // just gets the required items from the "required" field, if it exists
   if ('required' in params) {
     for (const type in params.required) {
@@ -194,7 +198,13 @@ function sampleRequiredItems(params, shop) {
   }
 }
 
-function sampleRarity(rarity, typeProportional, allowDuplicates) {
+function sampleRarity(
+  rarity,
+  typeProportional,
+  allowDuplicates,
+  items,
+  typeDist
+) {
   // if category proportional, we sample according to the number of items in each category
   if (typeProportional) {
     // type
@@ -220,13 +230,13 @@ function sampleRarity(rarity, typeProportional, allowDuplicates) {
   }
 }
 
-function sampleType(type, allowDuplicates) {
+function sampleType(type, allowDuplicates, items) {
   // rarity is selected proportionally for type sampling
-  const rarity = sampleFromWeightedDist(getCurrentTypeDist(type));
+  const rarity = sampleFromWeightedDist(getCurrentTypeDist(type, items));
   return getItem(type, rarity, items, !allowDuplicates[rarity]);
 }
 
-function sampleRequiredRarities(params, shop) {
+function sampleRequiredRarities(params, shop, items, typeDist) {
   // compute existing counts
   const existing = countExistingRarities(shop);
 
@@ -241,7 +251,9 @@ function sampleRequiredRarities(params, shop) {
         const item = sampleRarity(
           rarity,
           params.typeProportional,
-          params.allowDuplicates[rarity]
+          params.allowDuplicates[rarity],
+          items,
+          typeDist
         );
 
         if (item) {
@@ -256,7 +268,7 @@ function sampleRequiredRarities(params, shop) {
   }
 }
 
-function sampleRequiredTypes(params, shop) {
+function sampleRequiredTypes(params, shop, items) {
   const existing = countExistingTypes(shop);
 
   for (type in params.ensureType) {
@@ -267,7 +279,7 @@ function sampleRequiredTypes(params, shop) {
 
       for (let i = 0; i < ct; i++) {
         // sample
-        const item = sampleType(type, params.allowDuplicates);
+        const item = sampleType(type, params.allowDuplicates, items);
 
         if (item) {
           shop.push(item);
@@ -281,7 +293,7 @@ function sampleRequiredTypes(params, shop) {
   }
 }
 
-function sampleRemainingItems(params, rarityDist, shop) {
+function sampleRemainingItems(params, rarityDist, shop, items, typeDist) {
   console.log(`Generating remaining ${params.count - shop.length} items...`);
   let n = 0;
   while (shop.length < params.count && n < MAX_LOOPS) {
@@ -314,10 +326,35 @@ function sampleRemainingItems(params, rarityDist, shop) {
   }
 }
 
+function generatePrices(params, shop) {
+  // items should have a cost field
+  console.log(
+    `Adjusting Prices. Avg. Upcharge: ${(params.prices.upcharge * 100).toFixed(
+      2
+    )}%, variance: ${(params.prices.var * 100).toFixed(2)}%`
+  );
+
+  if (params.prices.alwaysMore) console.log('Always Upcharges Enabled');
+  if (params.prices.alwaysLess) console.log('Always Undercharges Enabled');
+  if (params.prices.alwaysMore && params.prices.alwaysLess)
+    console.log('Using Fixed Prices');
+
+  for (const item of shop) {
+    // generate the diff
+    let adjustment = random.normal(params.prices.upcharge, params.prices.var)();
+
+    if (params.prices.alwaysMore) adjustment = Math.max(0, adjustment);
+    if (params.prices.alwaysLess) adjustment = Math.min(0, adjustment);
+
+    item.cost += Math.round(item.cost * adjustment);
+    item.variance = adjustment;
+  }
+}
+
 function dndbLink(name) {
   const itemGuess = slugify(name, {
     replacement: '-',
-    remove: /[+,']/g,
+    remove: /[+,'":]/g,
     lower: true
   });
 
@@ -337,18 +374,21 @@ function printShop(shop) {
 }
 
 function exportShop(shop, file) {
-  let outString = 'Item,Type,Rarity';
+  let outString =
+    'Item\tType\tRarity\tCost (gp)\tPrice Variance (for DM)\tDnDBeyond Link (Guess)';
+
   for (const item of shop) {
-    outString += `\n${item.name.replace(',', ': ')},${item.type},${
-      item.rarity
-    }, ${dndbLink(item.name)}`;
+    outString += `\n${item.name}\t${item.type}\t${item.rarity}\t${
+      item.cost
+    }\t${(item.variance * 100).toFixed(2)}%\t${dndbLink(item.name)}`;
   }
 
   fs.writeFileSync(file, outString);
 }
 
-function makeShop(exportTo = null, opts = {}) {
+async function makeShop(exportTo = null, opts = {}) {
   let params = {
+    sources: [SOURCES.DMG, SOURCES.XGE],
     count: 20,
     typeProportional: false,
     allowDuplicates: {
@@ -360,58 +400,92 @@ function makeShop(exportTo = null, opts = {}) {
     },
     dist: {
       Common: {
-        prop: 0.25,
+        weight: 0.25,
         var: 0.1
       },
       Uncommon: {
-        prop: 0.4,
+        weight: 0.4,
         var: 0.1
       },
       Rare: {
-        prop: 0.2,
+        weight: 0.2,
         var: 0.05
       },
       'Very Rare': {
-        prop: 0.1,
+        weight: 0.1,
         var: 0.025
       },
       Legendary: {
-        prop: 0.05,
+        weight: 0.05,
         var: 0.025
       }
     },
+    prices: {
+      upcharge: 0.025,
+      var: 0.05,
+      alwaysMore: false,
+      alwaysLess: false
+    },
     ensureRarity: {},
     ensureType: {},
-    required: {}
+    required: {},
+    unofficialSources: []
   };
 
   params = merge(params, opts);
+
+  // source override (merge probably combines arrays)
+  if (opts.sources) params.sources = opts.sources;
+
+  // generate item globals
+  // load from sources - format builtin paths
+  const filePaths = [];
+  for (const source of params.sources) {
+    filePaths.push(path.join(DATA_PATH, `${source}.txt`));
+  }
+  filePaths.concat(params.unofficialSources);
+
+  // load
+  const itemData = await getItems.itemsFromFiles(filePaths);
+  const items = itemData.itemsByType;
+
+  if (Object.keys(items).length === 0) {
+    console.log('[ERROR] No Items Loaded, check sources and filepaths');
+    return {};
+  }
+
+  const typeDist = preprocessItems(items);
 
   // determine item rarity counts
   const rarityDist = getRarityDistribution(params);
 
   // prefill items based on required field
   const shop = [];
-  sampleRequiredItems(params, shop);
+  sampleRequiredItems(params, shop, items);
 
   // ensure the required item types
-  sampleRequiredTypes(params, shop);
+  sampleRequiredTypes(params, shop, items);
 
   // after doing the above, see if we're still missing required rarites
   // Ensure the required rarities
-  sampleRequiredRarities(params, shop);
+  sampleRequiredRarities(params, shop, items, typeDist);
 
   // pull the rest of the items
-  sampleRemainingItems(params, rarityDist, shop);
+  sampleRemainingItems(params, rarityDist, shop, items, typeDist);
+
+  // generate item prices for the shop
+  generatePrices(params, shop);
 
   // printShop(shop);
 
   if (exportTo) {
     exportShop(shop, exportTo);
   }
+
+  return shop;
 }
 
-function makeShopFromPreset(preset, exportTo = null) {
+async function makeShopFromPreset(preset, exportTo = null) {
   try {
     const settings = JSON.parse(fs.readFileSync(preset));
     makeShop(exportTo, settings);
@@ -422,5 +496,20 @@ function makeShopFromPreset(preset, exportTo = null) {
 
 module.exports.makeShop = makeShop;
 module.exports.makeShopFromPreset = makeShopFromPreset;
+module.exports.SOURCES = SOURCES;
 
-makeShopFromPreset(process.argv[2], process.argv[3]);
+// script todos
+// - pricing variance (need to price out all current items)
+// - modular item loads
+// - banned items
+
+(async () => {
+  try {
+    await makeShopFromPreset(
+      '../presets/major-city.json',
+      '../out/sovaliss2.txt'
+    );
+  } catch (e) {
+    console.log(e);
+  }
+})();

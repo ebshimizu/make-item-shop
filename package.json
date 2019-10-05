@@ -1,4 +1,10 @@
 {
+  "name": "item-shop-5e",
+  "author": {
+    "name": "Falindrith",
+    "email": "falindrith@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "deepmerge": "^4.0.0",
     "fs-extra": "^8.1.0",
