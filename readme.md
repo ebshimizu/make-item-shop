@@ -74,7 +74,7 @@ a solution.
 ### How do I add my own Items to the Pool?
 
 Write a tab-separated text file and provide the file path(s) in the `unofficialSources` field.
-The required columns are: `name`, `type`, `rarity`, `attunement required`, `notes`, `source`, `price`. See `src/db` for examples. Rarity must be one of: `{Common, Uncommon, Rare, Very Rare, Legendary}`.
+The required columns are: `name`, `type`, `rarity`, `attunement required`, `notes`, `source`, `price`. See `src/db` for examples. Rarity must be one of: `{Common, Uncommon, Rare, Very Rare, Legendary}`, and Type must be one of `{ Armor, Potion, Ring, Rod, Scroll, Staff, Wand, Weapon, Wondrous Item}`.
 
 ### How can I ban items?
 
