@@ -45,5 +45,11 @@
     "var": 0.05,
     "alwaysMore": false,
     "alwaysLess": false
-  }
+  },
+  "banned": [
+    "Ring of Three Wishes",
+    "Deck of Many Things",
+    "Luck Blade",
+    "Ring of Djinni Summoning"
+  ]
 }

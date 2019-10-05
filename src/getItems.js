@@ -10,7 +10,13 @@ const readline = require('readline');
  * @param {Object?} items Appends the retrieved items to this object. Optional.
  * @param {Object?} itemsByType Appends the retrieved items grouped by type and rarity into this object. Optional.
  */
-async function itemsFromCSV(file, saveTo, items = {}, itemsByType = {}) {
+async function itemsFromCSV(
+  file,
+  saveTo,
+  banned = [],
+  items = {},
+  itemsByType = {}
+) {
   const filestream = fs.createReadStream(file);
   const rl = readline.createInterface({
     input: filestream,
@@ -19,8 +25,15 @@ async function itemsFromCSV(file, saveTo, items = {}, itemsByType = {}) {
 
   for await (const line of rl) {
     const vals = line.split('\t');
+    const name = vals[0].replace(/"/g, '');
+
+    if (banned.indexOf(name) >= 0) {
+      console.log(`Skipping banned item: ${name}`);
+      continue;
+    }
+
     const item = {
-      name: vals[0].replace(/"/g, ''),
+      name,
       type: vals[1],
       rarity: vals[2],
       attune: vals[3] === 'yes' ? true : false,
@@ -52,7 +65,7 @@ async function itemsFromCSV(file, saveTo, items = {}, itemsByType = {}) {
   return { items, itemsByType };
 }
 
-async function itemsFromFiles(files, exportDir = null) {
+async function itemsFromFiles(files, banned = [], exportDir = null) {
   const items = {};
   const itemsByType = {};
 
@@ -61,7 +74,7 @@ async function itemsFromFiles(files, exportDir = null) {
     const filename = path.basename(file, '.txt');
     const saveTo = exportDir ? path.join(exportDir, `${filename}.json`) : null;
 
-    await itemsFromCSV(file, saveTo, items, itemsByType);
+    await itemsFromCSV(file, saveTo, banned, items, itemsByType);
   }
 
   return { items, itemsByType };

@@ -440,7 +440,8 @@ async function makeShop(exportTo = null, opts = {}) {
     ensureRarity: {},
     ensureType: {},
     required: {},
-    unofficialSources: []
+    unofficialSources: [],
+    banned: []
   };
 
   params = merge(params, opts);
@@ -457,7 +458,7 @@ async function makeShop(exportTo = null, opts = {}) {
   filePaths.concat(params.unofficialSources);
 
   // load
-  const itemData = await getItems.itemsFromFiles(filePaths);
+  const itemData = await getItems.itemsFromFiles(filePaths, params.banned);
   const items = itemData.itemsByType;
 
   if (Object.keys(items).length === 0) {
