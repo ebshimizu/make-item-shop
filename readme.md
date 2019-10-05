@@ -55,13 +55,6 @@ Well enough? Dunno, wrote it in about a day. The script works in a few phases:
 5. Adjust prices according to the prices I somewhat arbitrarily picked and the `prices` field.
 6. Exports and returns
 
-### Wait doesn't `ensureRarity` make it so the output distribution isn't eactly close to the input?
-
-This is correct in regards to that field and a much too mathematically inclined question to be frequent.
-I might go back and make an adaptive distribution
-that will take user constraints into account alongside the desired rarity distribution
-at some point, but it's not high on the to-do list.
-
 ### I don't like your prices.
 
 Not a question, but understood. Prices are based roughly on the ranges specified
@@ -90,6 +83,13 @@ At the moment, no. But I can probably make this happen eventually.
 
 Also not a question, but yeah I just didn't want to go replace
 that term in the input file you know?
+
+### Wait doesn't `ensureRarity` make it so the output distribution isn't eactly close to the input?
+
+This is correct in regards to that field and a much too mathematically inclined question to be frequent.
+I might go back and make an adaptive distribution
+that will take user constraints into account alongside the desired rarity distribution
+at some point, but it's not high on the to-do list.
 
 ## Preset fields
 
