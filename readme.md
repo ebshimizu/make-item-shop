@@ -243,6 +243,21 @@ Sample configuration for `required`:
 String array. A list of paths to tab-separated files with one item per line.
 These items will be loaded into the item pool and treated like any other item.
 
+### banned
+
+A string array of banned items by name. Name must match exactly.
+
+Sample configuration for `banned`:
+
+```json
+"banned": [
+  "Ring of Three Wishes",
+  "Deck of Many Things",
+  "Luck Blade",
+  "Ring of Djinni Summoning"
+]
+```
+
 ## Default configuration
 
 If you don't provide a preset file, the script will use the following as the default values:
