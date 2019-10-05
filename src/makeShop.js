@@ -355,6 +355,9 @@ function generatePrices(params, shop) {
     if (params.prices.alwaysLess) adjustment = Math.min(0, adjustment);
 
     item.cost += Math.round(item.cost * adjustment);
+
+    // above 0
+    item.cost = Math.max(0, item.cost);
     item.variance = adjustment;
   }
 }
@@ -398,7 +401,7 @@ async function makeShop(exportTo = null, opts = {}) {
   let params = {
     sources: [SOURCES.DMG, SOURCES.XGE],
     count: 20,
-    typeProportional: false,
+    typeProportional: true,
     allowDuplicates: {
       Common: true,
       Uncommon: true,
