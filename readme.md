@@ -55,11 +55,10 @@ Well enough? Dunno, wrote it in about a day. The script works in a few phases:
 5. Adjust prices according to the prices I somewhat arbitrarily picked and the `prices` field.
 6. Exports and returns
 
-### Wait but if the user constraints are handled first without regard to the input rarity distribution, the output rarity distribution might not actually be what I specified?
+### Wait doesn't `ensureRarity` make it so the output distribution isn't eactly close to the input?
 
-This is correct and a much too mathematically inclined question to be frequent.
-The user-specified constraints override basically everything at the moment, including
-the `count` of items to generate. I might go back and make an adaptive distribution
+This is correct in regards to that field and a much too mathematically inclined question to be frequent.
+I might go back and make an adaptive distribution
 that will take user constraints into account alongside the desired rarity distribution
 at some point, but it's not high on the to-do list.
 
