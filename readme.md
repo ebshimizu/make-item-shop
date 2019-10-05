@@ -61,7 +61,7 @@ Not a question, but understood. Prices are based roughly on the ranges specified
 by the Dungeon Master's Guide. If you're used to the prices in the Sane Magic Items guide,
 these will be different. I'm working on a way to tell the script to use a price table
 that will override my arbitrary defaults and will update this question when I have
-a solution.
+a solution. You can also just delete that column and use your own.
 
 ### How do I add my own Items to the Pool?
 
