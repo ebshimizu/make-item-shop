@@ -1,6 +1,6 @@
 # make-item-shop
 
-A node module that generates magic item shops for Dungeons and Dragons 5e (by default).
+A node module that generates magic item shops for Dungeons and Dragons 5e.
 
 Sample Output:
 
